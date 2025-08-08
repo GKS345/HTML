@@ -112,3 +112,16 @@ img {
     text-shadow: 4px 4px 4px #5BBD79;
     font-size: 17px;
 }
+
+.imgm {
+    border-radius: 25px;
+    opacity: 0.5;
+}
+
+/*.OV {
+background: rgba(255, 0, 0, 0.12);}  
+This command basically makes the fun more 'transparent'.
+In this case, it sets the background of the class to 0.12 opacity,
+so it shows 12 of the color of the div. 
+It serves for various things, but in this case, it is only weakening/making the color transparent.
+  */
