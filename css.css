@@ -2,6 +2,8 @@ body {
     background: linear-gradient(to right, #FFFFFF, #808080, #000000);
     color: #E0E0E0;
     padding: 30px;
+    align-content: center;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
