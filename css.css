@@ -124,9 +124,29 @@ img {
     text-shadow: 4px 4px 4px #5BBD79;
     font-size: 17px;
 }
+
 /*usei ia para corrigir um problema ai que ele do nada fica fininho todo o conteudo aqui peço perdão,
 ele so corrijiu uns erros mas eu vou devolver um mas não aqui e sim no html*/
 .imgm {
     border-radius: 25px;
     opacity: 0.5;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background: #2196F3;
+    color: white;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background: #0b79d0;
 }

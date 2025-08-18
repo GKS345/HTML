@@ -8,11 +8,20 @@
 </head>
 
 <body>
+
+
+    <nav>
+        <a href="#O-JOGO">clica ai poh</a>
+        <a href="#cachorro">FT de cachorros</a>
+        <a href="#omega">Foto muito legal</a>
+        <a href="#tabela1">tabela de informação</a>
+    </nav>
+
     <p id="resultado"></p>
 
-    <button onclick="carregarimagem()">Nova imagem</button>
+    <button id="cachorro" onclick="carregarimagem()">Nova imagem</button>
 
-    <h1>O JOGO</h1>
+    <h1 id="O-JOGO">O JOGO</h1>
 
     <h2>Meu repositório do Github</h2>
     <a href="https://github.com/GKS345?tab=repositories">Clique aqui</a>
@@ -25,7 +34,7 @@
         <img src="https://dicas.olx.com.br/wp-content/uploads/2024/09/virabrequim-exemplo.webp">
     </marquee>
 
-    <a href="https://drive.usercontent.google.com/u/0/uc?id=1M7Ltd1YtkR3MvpScu9MHDZ094ooqUCyd&export=download" download>
+    <a id="omega" href="https://drive.usercontent.google.com/u/0/uc?id=1M7Ltd1YtkR3MvpScu9MHDZ094ooqUCyd&export=download" download>
         Download da foto, mas a foto e da batata de bonita
     </a>
 
@@ -44,7 +53,7 @@
         <li>ND2</li>
     </ul>
 
-    <table class="table">
+    <table id="tabela1" class="table">
         <tr>
             <th class="Turbina">Turbina</th>
             <th class="price">Preço</th>
@@ -96,9 +105,10 @@
                     resultado.innerHTML = '';
                     const img = document.createElement('img');
                     img.src = data.message;
-                    img.style.width = '650px';
-                    img.style.height = '650px';
+                    img.style.width = '300px';
+                    img.style.height = '300px';
                     img.style.borderRadius = '20px';
+                    img.style.border = '5px solid black';
                     resultado.appendChild(img);
                 })
                 .catch(error => {
